@@ -1,0 +1,7 @@
+package dev.vulxts.render;
+
+import dev.vulxts.render.nanovg.NVGRenderer;
+
+public interface NvgDrawable {
+   void renderNvg(NVGRenderer var1, float var2, float var3, float var4, float var5);
+}
